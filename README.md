@@ -1,1 +1,1 @@
-# Carrer page of Daniel Bornstrand
+# Career page of Daniel Bornstrand
