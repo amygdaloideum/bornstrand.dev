@@ -10,7 +10,6 @@
 
   --m1: 1rem;
   --m2: 3rem;
-  --m3: 6rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,7 +28,7 @@ html {
   font-family: 'Courier New', monospace;
   font-weight: 300;
   background: var(--background);
-  padding: 2rem;
+  padding: var(--m2);
   font-size: var(--font-size);
   color: var(--text);
 }
@@ -116,4 +115,18 @@ ul.chip-list li {
   background: var(--accent);
   color: var(--background);
   padding: 0.3rem 1rem;
+}
+
+/* Small screen view */
+@media screen and (max-width: 500px) {
+
+  :root {
+    --m1: 1rem;
+    --m2: 2em;
+  }
+
+  html {
+    font-size: 16px;
+    padding: var(--m1)
+  }
 }
