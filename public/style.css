@@ -104,7 +104,9 @@ section {
 /* CHIP LIST */
 
 ul.chip-list {
-  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
   list-style-type: none;
   margin: 0.5rem 0 1rem 0;
   padding: 0;
@@ -115,6 +117,7 @@ ul.chip-list li {
   background: var(--accent);
   color: var(--background);
   padding: 0.3rem 1rem;
+  margin: 0.15rem;
 }
 
 /* Small screen view */
